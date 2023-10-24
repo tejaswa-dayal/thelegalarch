@@ -7,6 +7,9 @@ export default {
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
+    fontFamily:{
+        Karla: ["Karla", "sans-serif"],
+    },
     extend: {
       colors:{
         primary:{
