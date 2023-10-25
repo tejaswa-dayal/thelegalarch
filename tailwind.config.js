@@ -14,8 +14,8 @@ export default {
       colors:{
         primary:{
           lighter:"#30C7B5",
-          neutral:"#00AC97",
-          dark:'#00AC97'
+          neutral:"#039c89",
+          dark:'#008272'
         }
       },
     },
