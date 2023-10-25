@@ -14,7 +14,7 @@ const Navbar = () => {
         </svg>
           </button>
           <div className='hidden md:block md:w-auto' id="navbar-default">
-            <ul className='font-medium md:flex md:items-center text-primary-dark md:gap-4 p-4 md:p-0 mt-1'>
+            <ul className='md:flex md:items-center text-lg text-primary-dark md:gap-4 p-4 md:p-0 mt-1 font-semibold'>
               <li>
                 <a href="#">Home</a>
               </li>
