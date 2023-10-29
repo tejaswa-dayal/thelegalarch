@@ -1,5 +1,4 @@
 import React from 'react'
-import { Navbar as Nav } from 'flowbite-react';
 
 const Navbar = () => {
   return (
