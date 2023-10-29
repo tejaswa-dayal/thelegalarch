@@ -8,8 +8,8 @@ const Hero = () => {
         <h1 className='font-bold text-4xl md:text-6xl '>The Legal Arch</h1>
                     <p className='font-semibold text-xl mt-16 leading-loose max-w-md'>We provide a diverse set of legal services to our clients and assist them to meet these challenges successfully.</p>
                 <div className='flex justify-center gap-20 items-center'>
-                    <button className='bg-primary-dark text-white rounded-full py-2 px-4 text-center hover:bg-primary-lighter  transition-colors duration-300 ease-in-out font-bold mt-10'>About Us</button>
-                    <button className='border-2 border-primary-lighter text-sm text-white rounded-full py-2 px-4 text-center hover:bg-primary-lighter transition-colors duration-300 ease-in-out font-bold mt-10'>Contact Us</button>
+                    <button className='bg-primary-dark text-white rounded-full py-2 px-6 text-center hover:bg-primary-lighter  transition-colors duration-300 ease-in-out font-bold mt-10'>About Us</button>
+                    <button className='bg-secondary-neutral text-white rounded-full py-2 px-4 text-center hover:bg-secondary-lighter transition-colors duration-300 ease-in-out font-bold mt-10'>Contact Us</button>
                 </div>
             </div>
         </div>
