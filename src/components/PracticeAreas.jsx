@@ -16,8 +16,8 @@ const PracticeAreas = () => {
   return (
     <div className='h-screen w-full'>
       <div className='h-full w-full flex flex-col px-20 py-10'>
-        <div className='self-center'>
-            <h1 className='text-2xl md:text-6xl font-extrabold'>Our <span className='relative after:content-empty after:absolute after:-z-10 after:w-full after:border-[3px] md:after:border-4 after:border-secondary-lighter after:bottom-[0.35rem]  md:after:bottom-[0.65rem] after:left-0'>Practice</span> Areas</h1>
+        <div className='-ml-2.5 md:ml-0 self-center'>
+            <h1 className='text-2xl font-bold md:text-6xl md:font-extrabold'>Our <span className='relative after:content-empty after:absolute after:-z-10 after:w-full after:border-[2px] md:after:border-4 after:border-secondary-lighter after:bottom-[0.35rem]  md:after:bottom-[0.65rem] after:left-0'>Practice</span> Areas</h1>
         </div>
         <div className='flex w-full h-full flex-wrap justify-center gap-4 mt-4'>
             {areas.map((area,index)=>{
