@@ -29,8 +29,7 @@ const AboutUs = () => {
             Bounce), Civil Recovery, Arbitration etc.`
   return (
     <>
-    
-        <div className="h-screen w-full">
+        <div className="h-screen w-full" id="about">
       <div className="flex flex-col md:flex-row md:justify-center md:gap-5 w-full h-full px-20 py-10">
         <div className="h-auto md:w-full my-auto">
           <div className="w-10 md:w-16 lg:w-24 border-t-4 border-secondary-neutral mb-2" />

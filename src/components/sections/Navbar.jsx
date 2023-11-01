@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='min-w-full bg-white h-[10vh]  md:shadow-md sticky shadow-lg'>
-        <div className='flex justify-between mx-auto p-4'>
+    <nav className='min-w-full bg-white h-[7vh] lg:h-[10vh]  md:shadow-md shadow-lg'>
+        <div className='flex justify-between items-center h-full mx-auto p-4'>
           <a href='#'>
             <img src="/logo.jpg" className='h-10' alt="The Legal Arch Logo" />
           </a>
@@ -18,10 +18,13 @@ const Navbar = () => {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a href="#whyUs">Why Us?</a>
+              </li>
+              <li>
+                <a href="#practice">Services</a>
               </li>
             </ul>
           </div>

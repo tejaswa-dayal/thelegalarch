@@ -7,7 +7,7 @@ const WhyUs = () => {
         "The firm always feels that the success of any transaction / assignment depends on the quality of advice that is provided and the experience of the team providing such advice. Giving due importance to each such transaction, a dedicated team of professionals having sector specific specialization, are engaged to handle the transaction, with a pragmatic and solution-oriented approach.",
     ]
   return (
-    <div className='h-screen w-full bg-[url("/WhyUs.jpg")] bg-cover bg-no-repeat bg-center relative'>
+    <div className='h-screen w-full bg-[url("/WhyUs.jpg")] bg-cover bg-no-repeat bg-center relative' id="whyUs">
         <div className="w-full h-full  bg-black/75 absolute top-0 text-white">
         <div className='h-full w-full flex flex-col justify-center items-center px-10 text-justify gap-10 md:px-16 md:gap-16 lg:flex-row lg:gap-20 lg:px-20'>
             <div className='lg:min-w-fit lg:-mt-6'>

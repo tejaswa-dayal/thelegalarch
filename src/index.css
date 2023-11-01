@@ -6,6 +6,7 @@
 @layer base{
     *{
         @apply font-Karla;
+        @apply scroll-smooth;
     }
     a:active,a:hover{
     @apply text-primary-lighter;
